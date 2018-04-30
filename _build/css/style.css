@@ -1,0 +1,50 @@
+body {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#f97794), color-stop(#ed78b8), color-stop(#cf82da), color-stop(#9f91f3), to(#519eff));
+  background-image: -webkit-linear-gradient(left bottom, #f97794, #ed78b8, #cf82da, #9f91f3, #519eff);
+  background-image: -o-linear-gradient(left bottom, #f97794, #ed78b8, #cf82da, #9f91f3, #519eff);
+  background-image: linear-gradient(to right top, #f97794, #ed78b8, #cf82da, #9f91f3, #519eff);
+  font-weight: normal; }
+
+a {
+  color: #d474b3; }
+
+nav {
+  border: none;
+  -webkit-box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12), 0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12), 0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1); }
+  nav .bg-light {
+    background-color: #fff; }
+  nav .navbar-brand {
+    text-transform: uppercase;
+    font-weight: 500; }
+
+.item_favicon {
+  position: absolute;
+  left: 30px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 1;
+  color: #fb8c00; }
+
+.item_link {
+  display: block;
+  padding: 0px 13px 0px 25px; }
+
+@media screen and (max-width: 991px) {
+  .creators-nav {
+    display: none; } }
+
+.creators-bottom {
+  color: #F0F0F0; }
+  @media screen and (min-width: 992px) {
+    .creators-bottom {
+      display: none; } }
+  .creators-bottom a {
+    color: #FFFFFF; }
+
+.red-heart {
+  color: #d474b3; }
